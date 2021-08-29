@@ -9,7 +9,8 @@ Implementation Stand Alonge Attention
 ``` 
 # Usage
 ```
-layer   = StandAloneSelfAttention(512, 512, kernel_size = (3, 3), stride = 1, padding = 1, heads = 1, dim_head = 512)
+layer   = StandAloneSelfAttention(
+    512, 512, kernel_size = (3, 3), stride = 1, padding = 1, heads = 1, dim_head = 512)
 tensor  = torch.ones([1, 512, 6, 20])
 outputs = layer(tensor)
 print(outputs.shape) # [1, 512, 6, 20]
