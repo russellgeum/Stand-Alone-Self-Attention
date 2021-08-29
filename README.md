@@ -1,5 +1,9 @@
 # Stand-Alone Self-Attention
 Implementation Stand Alonge Attention  
+# Requirements
+```
+torch >= 1.8.0
+```
 # Folder 
 ```
 ㄴmodel_layer
@@ -16,5 +20,5 @@ outputs = layer(tensor)
 print(outputs.shape) # [1, 512, 6, 20]
 ```
 # Acknowledgement  
-Base SASA repo from @leaderj1001
+Base SASA repo from @leaderj1001  
 repo: https://github.com/leaderj1001/Stand-Alone-Self-Attention  
