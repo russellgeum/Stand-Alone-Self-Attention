@@ -1,5 +1,6 @@
 # Stand-Alone Self-Attention
-Implementation Stand Alonge Attention  
+Implementation Stand Alone Self Attention  
+- [arXiv Paper](https://arxiv.org/abs/1906.05909)
 # Requirements
 ```
 torch >= 1.8.0
